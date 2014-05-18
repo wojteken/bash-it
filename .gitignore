@@ -1,9 +1,17 @@
-*/enabled/*
-.DS_Store
-custom/*.bash
-!custom/example.bash
-.rvmrc
-aliases/custom.aliases.bash
-lib/custom.bash
-plugins/custom.plugins.bash
-*.swp
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.iml
+*.eml
+/dist/
+.cache
